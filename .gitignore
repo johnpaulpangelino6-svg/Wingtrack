@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+dist/
+.cache/
+
+# Environment secrets — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+client/dist/
+server/dist/
+dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.workbuddy-ai/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# pnpm
+pnpm-lock.yaml
+.pnpm-store/
+
+# local scratch
+.git-msg.tmp
+
+# Audit / verification scratch (harness scripts, screenshots, run logs)
+.audit/
+
+# Supabase CLI scratch
+supabase/.temp/
+
+# Archives
+*.zip
+git_folder.zip
